@@ -1,1 +1,1 @@
-web gunicorn mysite.wsgi:apcd pllication --log-file -
+web: gunicorn mysite.wsgi --log-file -
